@@ -1,0 +1,592 @@
+body{
+ background-color: lightgreen;
+
+}
+.ContainerA{
+  height: 350px;
+  width: 1900px;
+  border: 5px solid lightgreen;
+
+}
+.supsface{
+          justify-content: center;
+          height: 250px;
+          width: 320px;
+          border: 5px solid white;
+          padding: 3px;
+          border-radius: 5%;
+          margin-left: 250px;
+          position: absolute;
+          top: 55px;
+          animation: zoomAnimation 2s;
+
+}
+@keyframes zoomAnimation {
+ 0%{transform: scale(0);}
+ 100%{transform: scale(1);}
+}
+
+.TitleA1{
+  float: right;
+  font-size: 3.18em;
+  margin-top: 0px;
+  position: relative;
+  margin-right: 120px;
+  margin-top: 50px;
+  font-family: monospace;
+  animation: ShiftDown 1s 2;
+  animation-direction: alternate;
+
+}
+.TitleB2{
+  font-size: 1.7em;
+  color: white;
+  position: relative;
+  margin-left: 719.7px;
+  margin-bottom: 200px;
+  font-family: monospace;
+  animation: ShiftUp 1s 2;
+  animation-direction: alternate;
+}
+@keyframes ShiftDown {
+  from{transform: translateY(0);}
+  to{transform:translateY(100px);}
+}
+@keyframes ShiftUp {
+  form{transform: translateY(0);}
+  to{transform: translateY(-100px);}
+}
+#slideshow1{
+ overflow: hidden;
+ height: 64px;
+ width: 1001px;
+ border: 0.5px solid lightgreen;
+ margin-left: 449px;
+}
+.slide-wrapper {
+ width: 300%;
+ height: 100px;
+ animation: slideshow 16s infinite;
+ animation-direction: alternate;
+}
+@keyframes slideshow {
+ 0% {margin-left: 0%;}
+ 20%{margin-left:0%;}
+ 40% {margin-left: -100%;}
+ 60%{margin-left:-100%;}
+ 80%{margin-left: -200%;}
+ 100%{margin-left: -200%;}
+}
+.slide {
+ float: left;
+ height: 100%;
+ width: 33.33%;
+ font-family:monospace ;
+}
+ .slide h2{
+ text-align: center;
+ font-size: 1.1em;}
+ .slide:nth-child(1) {
+ background-color:#33cc33;
+ color: white;
+ font-size: 1.33em;
+}
+.slide:nth-child(2) {
+ background-color: #269900;
+ color: white;
+ font-size: 1.33em;
+}
+.slide:nth-child(3) {
+ background-color: green;
+ color:white;
+ font-size: 1.33em;
+}
+.container1{
+  height: 640px;
+  width: 1000px;
+  background-color:  #80d4ff;
+  left: 450px;
+  position: relative;
+}
+.supsreveal
+{
+  width: 1000px;
+  height: 640px;
+  bottom: 0px;
+  position:relative;
+}
+.Text1{
+  height: auto;
+  width: 450px;
+  background-color: white;
+  color:black;
+  opacity: 95%;
+  position: absolute;
+  text-align: justify;
+  left: 420px;
+  top:420px;
+  padding: 20px;
+  border: 3px solid #E9E8E8;
+}
+.container2{
+  height: 640px;
+  width: 1000px;
+  background-color:  #80d4ff;
+  left: 450px;
+  position: relative;
+}
+.supsback
+{
+  width: 1000px;
+  height: 640px;
+  bottom: 0px;
+  position:relative;
+  background-image: linear-gradient(to right, rgba(255,0,0,0.6),rgba(0,0,0,0.6)),
+url("images/supsback.png");
+ position: relative;
+}
+.Text2{
+  height: auto;
+  width: 490px;
+  background-color: none;
+  color:white;
+  opacity: 97%;
+  position: absolute;
+  text-align: justify;
+  left: 220px;
+  top:90px;
+  padding: 20px;
+  border: 3px ;
+}
+.Lock1,.Lock2{
+  height: 660px;
+  width: 1980px;
+  border: 3px solid lightgreen;
+}
+.container3, .container4, .container5, .Container6,.Container7,.Container8{
+  height: 640px;
+  width: 440px;
+  position: absolute;
+  border: 10px solid lightgreen;
+
+}
+.container3{
+    left: 200px;
+    background-color: lightgreen;
+    position: absolute;
+
+  }
+.container4{
+  float: right;
+  bottom:2px;
+  margin-left: 490px;
+  background-color: lightgreen;
+  position: absolute;
+}
+.container5{
+  background-color: lightgreen;
+  float: right;
+  top:0.1px;
+  left: 960px;
+  position: absolute;
+}
+.STASV1, .STASV2, .STASV3,.JLS1,.JLS2,.JLU{
+  height: 375px;
+  width: 250px;
+  margin-left: 95px;
+}
+.Text3{
+  margin-left: 25px;
+  justify-content: center;
+  font-family: monospace;
+  color: black;
+  font-size: 1.3em;
+}
+.Text4{
+  margin-left: 182px;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+.Text5{
+  margin-left: 145px;
+  font-size: 1.5em;
+  font-family: monospace;
+}
+.Text6{
+  margin-left:188px;
+  font-family: monospace;
+  color: black;
+  font-size: 1.3em;
+}
+
+.linkModel,.linkModel2,.linkModel1{
+margin-left: 175px;
+background-color: black;
+font-size: 10px;
+padding: 15px;
+text-decoration:none;
+color: white;
+border: 2px solid white;
+}
+.linkModel,.linkModel2,.linkModel1 a{
+text-decoration:none;
+}
+.modalWindow,.modalWindow2,.modalWindow1,.modalWindowA,.modalWindowB,.modalWindowC {
+position: fixed; top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: none;
+opacity: 0;
+pointer-events: none;
+z-index: 99999;
+}
+.modalWindow:target,.modalWindow2:target,.modalWindow1:target,.modalWindowA:target,.modalWindowB:target,.modalWindowC:target{
+ opacity: 1;
+ pointer-events: auto;
+}
+.msgText,.msgText2,.msgText1{
+position: relative;
+width: 700px;
+height: 540px;
+border-radius: none;
+margin: auto;
+margin-top: 10px;
+background: white;
+
+}
+.image1,.image2,.image3{
+  width: 27%;
+  top: 16%;
+  position: absolute;
+  left: 100px;
+}
+.Text7, .Text8, .Text9,.Text10 {
+  margin-left: 400px;
+  position: relative;
+  margin-top: 50px;
+}
+.Text11 {
+  padding: 40px;
+  text-align: justify;
+  background-color: gray;
+}
+
+.ATC,.ATC2,.ATC1{
+padding: 20px;
+background-color: #F4F4F4;
+color: black;
+font-family: monospace;
+font-size: 1.5em;
+}
+.modal-close,.modal-close2,.modal-close1,.M-CA,.M-CB,.M-CC{
+color: black;
+padding: 12px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+background-color:#F4F4F4 ;
+}
+.MC1,.MC2,.MCThree{
+  color: black;
+  padding: 12px;
+  height: 10px;
+  width: 10px;
+  font-weight: bold;
+  left: 666px;
+  text-decoration: none;
+  position: absolute;
+  background-color: gray;
+}
+.MCA,.MCB,.MCC{
+  color: black;
+  padding: 12px;
+  height: 10px;
+  width: 10px;
+  font-weight: bold;
+  left: 95.3%;
+  text-decoration: none;
+  position: absolute;
+  background-color: gray;
+}
+.Container6{
+  left:200px;
+}
+.Container7{
+  left: 495px;
+  top: 0px;
+}
+.Container8{
+ left: 1000px;
+ top: 0px;
+}
+.TextA{
+  font-size: 1.5em;
+  font-family: monospace;
+  margin-left: 87px;
+  font-weight: bolder;
+}
+.TextB{
+  margin-left: 180px;
+  font-family: monospace;
+}
+.TextC{
+  margin-left: 110px;
+  font-family: monospace;
+}
+.TextD{
+  margin-left: 165px;
+  font-family: monospace;
+  font-size: 1.2em;
+}
+.TextE{
+  margin-left: 187px;
+  font-size: 1.16em;
+  font-family: monospace;
+}
+.linkModelA,.linkModelB,.linkModelC{
+  margin-left: 175px;
+  background-color: black;
+  font-size: 10px;
+  padding: 15px;
+  text-decoration:none;
+  color: white;
+  border: 2px solid white;
+}
+.modalWindowA,.modalWindowB,.modalWindowC{
+position: fixed; top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background-color: rgba(160,80,160,0.8);
+}
+.modalWindowA,.modalWindowB,.modalWindowC{
+position: fixed;
+width: 720px;
+height: 560px;
+border-radius: none;
+margin: auto;
+margin-top: 30px;
+background: white;
+position: fixed;
+}
+.TextJ{
+padding: 20px;
+background-color: black;
+color: white;
+margin-top: 190px;
+font-family: monospace;
+}
+.IMGA,.IMGB,.IMGC{
+ width: 30%;
+ height: auto;
+ left: 15%;
+top: 100px;
+ position: absolute;
+}
+.ATC4{
+  padding: 18px;
+  background-color: white;
+  color: black;
+  font-size: 1.7em;
+  margin-left: 60px;
+  font-family: monospace;
+}
+.TextF,.TextG,.TextH,.TextI{
+  margin-left: 400px;
+  font-family: monospace;
+  margin-top: 25px;
+}
+.TextF{
+  font-size: 1.4em;
+}
+.TextG{
+ color: darkblue;
+ font-size: 1.1em;
+}
+.TextI{
+  font-size: 1.3em;
+}
+.TextJ2{
+  margin-top: 160px;
+  padding: 20px;
+  background-color: black;
+  color: white;
+
+  font-family: monospace;
+}
+.TextF2,.TextG2,.TextH2,.TextI2{
+  margin-left: 380px;
+  font-family: monospace;
+  margin-top: 25px;
+}
+.TextF2{
+  font-size: 1.3em;
+}
+.TextG2{
+ color: darkblue;
+ font-size: 1.0em;
+}
+.TextI2{
+  font-size: 1.2em;
+}
+.Lock3{
+  height: 440px;
+  width: 1980px;
+  background-color: #004d00;
+  margin-left: 0px;
+  position: relative;
+}
+.HELP{
+  color:white;
+  font-family: monospace;
+  position: absolute;
+  left: 600px;
+  top:12.5px;
+}
+.ACCOUNT{
+  color: white;
+  font-family: monospace;;
+  position: absolute;
+  left:800px;
+  top: 12.5px;
+}
+.SUBSCRIBE{
+  color: white;
+  font-family: monospace;
+  position: absolute;
+  left: 1000px;
+  top: 12.5px;
+}
+.THEMEMBERCARD{
+  color: white;
+  font-family: monospace;
+  position: absolute;
+  left: 1200px;
+  top: 12.5px;
+}
+.HELP2{
+  color:white;
+  font-family: monospace;
+  position: absolute;
+  left: 570px;
+  top:36px;
+  font-size: .8em;
+
+}
+.ACCOUNT2{
+  color: white;
+  font-family: monospace;;
+  position: absolute;
+  left:795px;
+  top: 39px;
+  font-size: .7em;
+}
+.SUBSCRIBE2{
+  color: white;
+  font-family: monospace;
+  position: absolute;
+  left: 1002px;
+  top: 39px;
+  font-size: .7em;
+}
+.THEMEMBERCARD2{
+  color: white;
+  font-family: monospace;
+  position: absolute;
+  left: 1200px;
+  top: 39px;
+  font-size: .7em;
+}
+.HELP3{
+  color:white;
+  font-family: monospace;
+  position: absolute;
+  left: 590px;
+  top:54px;
+  font-size: .8em;
+
+}
+.ACCOUNT3{
+  color: white;
+  font-family: monospace;;
+  position: absolute;
+  left:795px;
+  top: 54px;
+  font-size: .7em;
+}
+.SUBSCRIBE3{
+  color: white;
+  font-family: monospace;
+  position: absolute;
+  left: 991.5px;
+  top: 54px;
+  font-size: .7em;
+}
+.THEMEMBERCARD3{
+  color: white;
+  font-family: monospace;
+  position: absolute;
+  left: 1225px;
+  top: 54px;
+  font-size: .7em;
+}
+.MEDIALINKS{
+  color: white;
+  font-family: monospace;
+  position: absolute;
+  left: 60%;
+  top:46%;
+}
+.FB{
+  height:39px;
+  width: 39px;
+  position: absolute;
+  left: 61%;
+  top: 60%;
+}
+.Google{
+  height: 39px;
+  width: 39px;
+  position: absolute;
+  left: 64%;
+  top: 60%;
+}
+.Instagram{
+  height: 39px;
+  width: 39px;
+  position: absolute;
+  left: 67%;
+  top:60%
+}
+.SNAP{
+  height: 39px;
+  width: 39px;
+  position: absolute;
+  left: 70%;
+  top: 60%;
+}
+.twitter{
+  height: 39px;
+  width: 39px;
+  position: absolute;
+  left: 73%;
+  top: 60%;
+}
+.finala{
+  color: white;
+  font-family: monospace;
+  position: absolute;
+  left: 38%;
+  top: 80%;
+  font-size: .9em;
+}
+.finalb{
+  color: white;
+  font-family: monospace;
+  position: absolute;
+  left: 25%;
+  top: 90%;
+  font-size: .9em;
+}
